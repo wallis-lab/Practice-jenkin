@@ -55,7 +55,7 @@ public class TestSelenium {
       Select hardwareSel = new Select(hardware);
       hardwareSel.selectByIndex(3);
       
-      WebElement OS = driver.findElement(By.id("op_sys"));
+    /*  WebElement OS = driver.findElement(By.id("op_sys"));
       Select OSSel = new Select(OS);
       //OSSel.selectByIndex(4);
       OSSel.selectByVisibleText("Windows");
@@ -65,7 +65,9 @@ public class TestSelenium {
       driver.findElement(By.id("short_desc")).sendKeys("who am i");
       
       
-      driver.findElement(By.id("submit")).click();
+      driver.findElement(By.id("submit")).click();*/
+      
+      driver.close();
   
   }
 }

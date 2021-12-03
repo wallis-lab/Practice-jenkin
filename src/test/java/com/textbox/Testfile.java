@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 
 public class Testfile {
-  @Test
+  /*@Test
   public void readfile() {
 	  String fileName = "C:\\Users\\likun\\Desktop\\测试.xlsx";
       ExcelListener excelListener = new ExcelListener();
@@ -20,5 +20,5 @@ public class Testfile {
       for (JSONObject object : dataList) {
           System.out.println(object);
       }
-  }
+  }*/
 }
