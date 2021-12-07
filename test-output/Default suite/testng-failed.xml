@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.textbox.NewTest">
+      <class name="APITest.ApiTest">
         <methods>
-          <include name="FirefoxTest"/>
+          <include name="TestListUsers"/>
+          <include name="beforeTest"/>
         </methods>
-      </class> <!-- com.textbox.NewTest -->
+      </class> <!-- APITest.ApiTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
